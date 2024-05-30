@@ -1,14 +1,14 @@
-import React from 'react'
-import { Button } from "@/components/ui/button";
+import React from "react";
 import Link from "next/link";
-import Arrow from '../assets/Arrow/Arrow';
+import Arrow from "../assets/Arrow/Arrow";
 
 const SocialPortfolio = () => {
   return (
-    <div className="">
+    <div className="w-[688px] rounded-xl bg-black text-xl py-6 px-8 relative">
+      <p>Social Portfolio</p>
+      <div className="absolute top-4 right-3"><Arrow /></div>
+    </div>
+  );
+};
 
-  </div>
-  )
-}
-
-export default SocialPortfolio
+export default SocialPortfolio;
