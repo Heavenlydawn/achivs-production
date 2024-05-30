@@ -29,7 +29,7 @@ const Hero = () => {
     },
   ];
   return (
-    <div className="w-[768px] p-16 mt-24 grid grid-cols-2 items-center justify-center gap-12 bg-[#222] rounded-2xl">
+    <div className="w-[768px] m-auto p-16 mt-24 grid grid-cols-2 items-center justify-center gap-12 bg-[#222] rounded-2xl">
       {portImages.map((portdetails) => (
         <HeroCrumb
           key={portdetails.key}
