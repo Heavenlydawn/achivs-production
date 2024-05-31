@@ -18,9 +18,6 @@ const config = {
       },
     },
     extend: {
-      fontFamily: {
-        sans: ['Livvic", sans-serif'],
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

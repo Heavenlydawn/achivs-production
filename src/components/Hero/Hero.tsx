@@ -5,6 +5,7 @@ import PortImage2 from "../../../public/images/PortImage2.png";
 import PortImage3 from "../../../public/images/PortImage3.jpg";
 import PortImage4 from "../../../public/images/PortImage4.jpg";
 import SocialPortfolio from "../SocialPortfolio/SocialPortfolio";
+import Footer from "../Footer/Footer";
 
 const Hero = () => {
   const portImages = [
@@ -41,6 +42,9 @@ const Hero = () => {
       ))}
    <SocialPortfolio />
     </div>
+ <div className="p-16">
+ <Footer />
+ </div>
     </section>
   );
 };
