@@ -19,7 +19,7 @@ const Footer = () => {
         <h2 className="text-5xl mb-12">ACHIV&apos;s PRODUCTION</h2>
         <h3 className="text-3xl leading-10 font-bold">MISSION</h3>
         <p className="text-lg leading-10">
-          To capture and preserve the beauty of life's moments with creativity
+          To capture and preserve the beauty of life&apos;s moments with creativity
           and precision, providing our clients with stunning visual memories
           that tell their unique stories. We strive to deliver exceptional
           quality, personalized service, and a seamless experience from start to
@@ -29,7 +29,7 @@ const Footer = () => {
       <div>
         <h3 className="text-3xl leading-10 my-12 font-bold">VISION</h3>
         <p className="text-lg leading-10">
-          To capture and preserve the beauty of life's moments with creativity
+          To capture and preserve the beauty of life&apos;s moments with creativity
           and precision, providing our clients with stunning visual memories
           that tell their unique stories. We strive to deliver exceptional
           quality, personalized service, and a seamless experience from start to
