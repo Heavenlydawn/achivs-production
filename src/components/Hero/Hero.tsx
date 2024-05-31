@@ -32,7 +32,7 @@ const Hero = () => {
   ];
   return (
     <section className="bg-[#222] w-full">
-      <div className="w-[300px] md:w-[768px] 
+      <div className="w-full
       m-auto p-4 md:p-8 lg:p-16 mt-24 grid grid-cols-2 
       items-center justify-center
       gap-4 md:gap-8 lg:gap-12 rounded-2xl">
