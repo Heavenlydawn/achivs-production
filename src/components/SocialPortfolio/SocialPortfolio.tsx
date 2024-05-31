@@ -4,7 +4,7 @@ import Arrow from "../assets/Arrow/Arrow";
 
 const SocialPortfolio = () => {
   return (
-    <div className="w-[688px] rounded-xl bg-black text-xl py-6 px-8 relative">
+    <div className="w-full rounded-xl bg-black text-xl py-6 px-8 relative my-12">
       <p>Social Portfolio</p>
       <div className="absolute top-4 right-3"><Arrow /></div>
     </div>

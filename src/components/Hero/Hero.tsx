@@ -31,20 +31,25 @@ const Hero = () => {
     },
   ];
   return (
-    <section className="bg-[#222]">
-    <div className="w-[768px] m-auto p-16 mt-24 grid grid-cols-2 items-center justify-center gap-12 rounded-2xl">
-      {portImages.map((portdetails) => (
-        <HeroCrumb
-          key={portdetails.key}
-          image={portdetails.image}
-          text={portdetails.text}
-        />
-      ))}
-   <SocialPortfolio />
-    </div>
- <div className="p-16">
- <Footer />
- </div>
+    <section className="bg-[#222] w-full">
+      <div className="w-[300px] md:w-[768px] 
+      m-auto p-4 md:p-8 lg:p-16 mt-24 grid grid-cols-2 
+      items-center justify-center
+      gap-4 md:gap-8 lg:gap-12 rounded-2xl">
+        {portImages.map((portdetails) => (
+          <HeroCrumb
+            key={portdetails.key}
+            image={portdetails.image}
+            text={portdetails.text}
+          />
+        ))}
+      </div>
+      <div className="p-4 md:p-16">
+        <SocialPortfolio />
+      </div>
+      <div className="p-8 md:p-16">
+        <Footer />
+      </div>
     </section>
   );
 };

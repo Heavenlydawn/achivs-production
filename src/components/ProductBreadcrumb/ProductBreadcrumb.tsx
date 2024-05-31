@@ -5,7 +5,7 @@ import Link from "next/link";
 const ProductBreadcrumb = () => {
   return (
     <div className="mt-12">
-      <Button asChild className="w-[768px] m-auto text-center text-xl p-8 bg-[#222]">
+      <Button asChild className="w-full m-auto text-center text-xl p-8 bg-[#222]">
         <Link href="/">My Products</Link>
       </Button>
     </div>

@@ -16,9 +16,9 @@ const Footer = () => {
       </div>
 
       <div className="mt-24">
-        <h2 className="text-3xl mb-12">ACHIV&apos;s PRODUCTION</h2>
-        <h3 className="text-3xl leading-10 font-bold">MISSION</h3>
-        <p className="text-lg leading-10">
+        <h2 className="text-base md:text-3xl mb-12">ACHIV&apos;s PRODUCTION</h2>
+        <h3 className="text-lg md:text-3xl leading-10 mb-12">MISSION</h3>
+        <p className="text-base md:text-lg leading-10">
           To capture and preserve the beauty of life&apos;s moments with creativity
           and precision, providing our clients with stunning visual memories
           that tell their unique stories. We strive to deliver exceptional
@@ -27,8 +27,8 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <h3 className="text-3xl leading-10 my-12 font-bold">VISION</h3>
-        <p className="text-lg leading-10">
+        <h3 className="text-lg md:text-3xl leading-10 my-12">VISION</h3>
+        <p className="text-base md:text-lg leading-10">
           To capture and preserve the beauty of life&apos;s moments with creativity
           and precision, providing our clients with stunning visual memories
           that tell their unique stories. We strive to deliver exceptional

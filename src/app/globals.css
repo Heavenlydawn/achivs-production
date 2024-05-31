@@ -28,3 +28,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* @media screen and (max-width:800){
+  body {
+    width:calc(100vw - 20px);
+  }
+} */
+@media screen and (max-width:500px){
+  body {
+    width:calc(100vw - 20px);
+  }
+}

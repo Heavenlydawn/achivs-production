@@ -1,6 +1,8 @@
-import React from "react";
+"use client"
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import HamburgerMenu from "../assets/Hamburger/Hamburger";
 import Logo from "../../../public/images/Logo.jpg";
 import Instagram from "../assets/Instagram/Instagram";
 import Email from "../assets/Email/Email";
@@ -9,6 +11,22 @@ import Youtube from "../assets/Youtube/Youtube";
 import Behence from "../assets/Behence/Behence";
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+
   return (
     <header className="flex items-center justify-between">
       <div>
@@ -23,13 +41,11 @@ const Header = () => {
         </div>
       </div>
 
-      <div>
+      <div className="w-12 h-12 md:w-36 md:h-36">
         <Image
           src={Logo}
           alt="Logo"
-          width={150}
-          height={150}
-          className="rounded-full"
+          className="w-full h-full rounded-full"
         />
       </div>
     </header>
