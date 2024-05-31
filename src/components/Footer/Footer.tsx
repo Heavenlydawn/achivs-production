@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-24">
-        <h2 className="text-5xl mb-12">ACHIV's PRODUCTION</h2>
+        <h2 className="text-5xl mb-12">ACHIV&apos;s PRODUCTION</h2>
         <h3 className="text-3xl leading-10 font-bold">MISSION</h3>
         <p className="text-lg leading-10">
           To capture and preserve the beauty of life's moments with creativity
