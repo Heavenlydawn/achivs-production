@@ -9,7 +9,7 @@ interface PortProps {
 }
 const HeroCrumb: React.FC<PortProps> = ({ image, text }) => {
   return (
-    <div className="w-32 h-32 md:w-full md:h-[336px] relative overflow-hidden">
+    <div className="w-40 h-40 md:w-full md:h-[336px] relative overflow-hidden">
       <Image src={image} alt={text} className="rounded-xl 
       w-full h-full transition-transform duration-300 
       ease-in-out transform hover:scale-110" />
